@@ -1,0 +1,12 @@
+[package]
+name = "project_integrity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gpapi = {git="https://github.com/uzeyirdestan/rs-google-play" , branch="fixTls"}
+tokio = "1.36.0"
+zip = "0.6.6"
+axmldecoder = {git="https://github.com/uzeyirdestan/axmldecoder" }
